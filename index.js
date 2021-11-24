@@ -91,7 +91,7 @@ function getPdfFiles(import_folder){
 
     fs.readdirSync(import_folder).forEach(file => {
         console.log(file)
-        if(file.indexOf(".pdf") > -1){
+        if(file.endsWith(".pdf")){
             pdf_files.push(file)
         }
     });
