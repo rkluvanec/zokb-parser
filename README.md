@@ -1,6 +1,4 @@
-|--------------------------------------------------------------|
-| Automaticky parser formulara na samohodnotenie v zmysle ZoKB |
-|--------------------------------------------------------------|
+## Automaticky parser formulara na samohodnotenie v zmysle ZoKB
 
 verzia: 0.2 (Nov 24, 2021)
 
