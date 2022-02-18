@@ -1,0 +1,34 @@
+{
+  "name": "zokb",
+  "version": "0.3.0",
+  "description": "Parser formularov Zakona o Kybernetickej Bezpecnosti",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkluvanec/zokb-parser.git"
+  },
+  "author": "Roman Kluvanec, MInf (Hons)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkluvanec/zokb-parser/issues"
+  },
+  "homepage": "https://github.com/rkluvanec/zokb-parser#readme",
+  "dependencies": {
+    "pdf2json": "^2.0.0"
+  },
+  "pkg": {
+    "scripts": [],
+    "assets": [
+      "node_modules/pdf2json/base/shared/*",
+      "node_modules/pdf2json/base/core/*",
+      "node_modules/pdf2json/base/display/*"
+    ]
+  },
+  "bin": {
+    "zokb": "./index.js"
+  }
+
+}
