@@ -17,15 +17,11 @@
   },
   "homepage": "https://github.com/rkluvanec/zokb-parser#readme",
   "dependencies": {
-    "pdf2json": "^2.0.0"
+    "pdf-lib": "^1.17.1"
   },
   "pkg": {
     "scripts": [],
-    "assets": [
-      "node_modules/pdf2json/base/shared/*",
-      "node_modules/pdf2json/base/core/*",
-      "node_modules/pdf2json/base/display/*"
-    ]
+    "assets": []
   },
   "bin": {
     "zokb": "./index.js"
