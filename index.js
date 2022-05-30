@@ -102,10 +102,11 @@ function getPdfFiles(import_folder){
 // Hlavna fukncia
 function main(){
 
+    console.log("Script has been activated");
     // definicia pouzitych suborov a priecinkov
     let date_ob = new Date();
     let import_folder = "./import/";
-    let export_file = 'zokb_export_' + replaceAll(date_ob.toISOString(),":","-").slice(0,16) + '.csv'
+    let export_file = './export/zokb_export_' + replaceAll(date_ob.toISOString(),":","-").slice(0,16) + '.csv'
     const files = getPdfFiles(import_folder)
     
     // tlac hlavicky

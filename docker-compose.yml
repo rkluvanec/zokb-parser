@@ -1,0 +1,10 @@
+version: "3.5"
+
+services:
+  zokb-parser:
+    build: .
+    image: zokb-parser
+    volumes:
+      - /home/pi/Test/nbu/import:/opt/zokb-parser/import:rw
+      - /home/pi/Test/nbu/export:/opt/zokb-parser/export:rw
+    command: bash -c "while true; do echo "bezim"; node index.js; sleep 30; done"
