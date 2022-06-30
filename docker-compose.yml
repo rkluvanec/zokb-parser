@@ -7,4 +7,5 @@ services:
     volumes:
       - /home/pi/Test/nbu/import:/opt/zokb-parser/import:rw
       - /home/pi/Test/nbu/export:/opt/zokb-parser/export:rw
-    command: bash -c "while true; do echo "bezim"; node index.js; sleep 30; done"
+      - /home/pi/Test/nbu/keys:/opt/zokb-parser/keys:rw
+    command: bash -c "while true; do node index.js; sleep 10m; done"

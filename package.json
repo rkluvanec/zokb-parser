@@ -1,6 +1,6 @@
 {
   "name": "zokb",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Parser formularov Zakona o Kybernetickej Bezpecnosti",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rkluvanec/zokb-parser#readme",
   "dependencies": {
+    "crypto": "^1.0.1",
     "pdf-lib": "^1.17.1"
   },
   "pkg": {
