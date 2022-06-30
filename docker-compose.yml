@@ -8,4 +8,4 @@ services:
       - /home/pi/Test/nbu/import:/opt/zokb-parser/import:rw
       - /home/pi/Test/nbu/export:/opt/zokb-parser/export:rw
       - /home/pi/Test/nbu/keys:/opt/zokb-parser/keys:rw
-    command: bash -c "while true; do node index.js; sleep 10m; done"
+    command: bash -c "while true; do node index.js; sleep 5m; done"
