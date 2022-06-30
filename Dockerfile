@@ -5,5 +5,5 @@ workdir /opt/zokb-parser/
 copy . .
 
 run npm install
-run rm package.json package-lock.json navod.txt
+run rm package.json package-lock.json
 
